@@ -1,5 +1,3 @@
-# autism-spectrum-disorder-prediction-using-machine-learning
-
 # Autism Spectrum Disorder Prediction - Reproduction Study
 
 

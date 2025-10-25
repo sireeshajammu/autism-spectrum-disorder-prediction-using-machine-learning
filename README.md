@@ -12,13 +12,13 @@ This project is a **reproduction study** of the research paper:
 
 ### Reproduction Results
 
-| Metric | Original Paper | Our Reproduction | Match |
-|--------|---------------|------------------|-------|
-| **Test Accuracy** | 81.88% | **81.87%** |  99.99% |
-| **CV Accuracy** | 93.00% | **92.72%** | 99.70% |
-| **Best Model** | Random Forest | Random Forest | Same |
+| Metric | Original Paper | Our Reproduction |
+|--------|---------------|------------------|
+| **Test Accuracy** | 81.88% | **81.87%** | 
+| **CV Accuracy** | 93.00% | **92.72%** | 
+| **Best Model** | Random Forest | Random Forest | 
 
-the reproduction achieved **near-perfect alignment** with the original paper while providing **comprehensive evaluation metrics** (precision, recall, F1, ROC-AUC) that were not reported in the original study.
+
 
 ---
 
@@ -145,6 +145,10 @@ Actual No ASD   108    16    (124 total)
    ```bash
    pip install -r requirements.txt
    ```
+### how to do a quick short run
+just use google collab and open the ipynb file in collab by pasting this github repository link 
+run each cell individually
+for uploading the dataset into the colab environment use file upload method in the second cell
 
 ### Required Libraries
 
@@ -212,7 +216,7 @@ autism-prediction-reproduction/
 │
 │
 └── data/
-    └── autism_screening.csv                          # Dataset (add separately)
+    └── train.csv                          # Dataset (add separately)
 ```
 
 ---

@@ -146,9 +146,9 @@ Actual No ASD   108    16    (124 total)
    pip install -r requirements.txt
    ```
 ### how to do a quick short run
-just use google collab and open the ipynb file in collab by pasting this github repository link 
-run each cell individually
-for uploading the dataset into the colab environment use file upload method in the second cell
+-just use google collab and open the ipynb file in collab by pasting this github repository link 
+-run each cell individually
+-for uploading the dataset into the colab environment use file upload method in the second cell
 
 ### Required Libraries
 
